@@ -80,22 +80,3 @@ if __name__ == '__main__':
         print(f"Local IP {local_ip} same as advertised IP in Route 53")
 
 
-# example batch file for the script to ingest and write to for logging
-#{
-#    "Comment": "Last updated: 24-Nov-2019 (21:36:10.831742)",
-#    "Changes": [
-#        {
-#            "Action": "UPSERT",
-#            "ResourceRecordSet": {
-#                "ResourceRecords": [
-#                    {
-#                        "Value": "x.x.x.x"
-#                    }
-#                ],
-#                "Name": "example.com",
-#                "Type": "A",
-#                "TTL": 300
-#            }
-#        }
-#    ]
-#}
